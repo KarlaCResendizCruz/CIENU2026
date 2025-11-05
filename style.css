@@ -12,6 +12,91 @@
   justify-content: center;
 }
 
+/***Envio y registro INICIO***/
+    .Registro {
+      background-color: #f8f9fa;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #49176D;
+      margin-bottom: 1rem;
+    }
+
+    .step-box {
+      background-color: #f9f9f9;
+      border-left: 8px solid #49176D;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .step-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .step-number {
+      background-color: #49176D;
+      color: white;
+      font-weight: bold;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .step-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #49176D;
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .step-box {
+        padding: 1.5rem;
+      }
+
+      .step-number {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+      }
+
+      .step-title {
+        font-size: 1.25rem;
+      }
+    }
+/***Envio y registro FIN***/
+
+.SubT2{
+  color: #f4b223;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.SubT3{
+  color: #c90606;
+  font-weight: 500;
+}
+
+.SubT4{
+  color: #49176D;
+  font-weight: 500;
+}
+
 /**CONTADOR INICIO**/
 .overlay {
   position: absolute;
@@ -35,6 +120,62 @@
   z-index: 1;
 }
 /**CONTADOR FIN**/
+
+
+/***Turismo Inicio***/
+
+
+
+.BGIturismo {
+  background: url('/files/imagenes/home/Turismo.png') no-repeat center center;
+  background-size: cover;
+}
+    .Body1{
+      height: 100%;
+      margin: 0;
+    }
+
+    .hero-section {
+      background-image: url('/files/imagenes/home/Turismo.png'); /* Reemplaza con la ruta de tu imagen */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .social-icons {
+      margin-top: 1rem;
+    }
+
+    .social-icons .a1 {
+      color: white;
+      font-size: 2rem;
+      margin: 0 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons .a1:hover {
+      color: #FFD700;
+    }
+
+    @media (max-width: 768px) {
+      .hero-section {
+        padding: 1rem;
+      }
+
+      .social-icons a {
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+      }
+    }
+/***Turismo Final***/
 
 /****/
 .message-box {
@@ -84,6 +225,14 @@
     font-weight: 750;
 }
 
+.TituloDw {
+    color: #F4B223;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 750;
+}
+
+
 .TituloComprimiso {
     color: #49176D;
     text-align: center;
@@ -115,6 +264,17 @@
 }
 
 @media (max-width: 600px) {
+    .PhoneFooter {
+        width: 150px;
+      
+    }
+}
+
+
+
+
+
+@media (max-width: 600px) {
     .imgCapacidad {
         width: 300px;
         padding-top: 10px;
@@ -144,7 +304,7 @@ text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
 
 .Bienvenida {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -832,6 +992,62 @@ body {
     background-color: #724394 !important; 
     color: #ffffff;
     box-shadow: 0 5px 13px -2px #724394;
+}
+
+
+.btnCenter{
+  display: flex;
+  justify-content: center;
+}
+
+
+.BcolorDP {
+    width: 250px;
+    background-color: #f1deff;
+    border-color: #49176d;
+    color: #49176d;
+}
+
+.BcolorDP:hover {
+    border-color: #724394 !important;
+    background-color: #724394 !important; 
+    color: #ffffff;
+    box-shadow: 0 5px 13px -2px #724394;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .ICONcolor {
+        width: 35px !important;
+      
+    }
+}
+
+
+@media (min-width: 600px) {
+  /* Aquí van los estilos que solo se aplican en pantallas mayores a 600px */
+  .ICONcolor{
+    width: 50px;
+  }
+}
+
+
+.ICONcolor:hover {
+    border-radius: 30px;
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 15px 15px rgba(66, 66, 66, 0.25), 
+    -5px -5px 15px 15px rgba(73, 73, 73, 0.22);
+}
+
+
+
+.ICONcolor2:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 20px 15px rgba(255, 255, 255, 0.527), 
+    -5px -5px 20px 15px rgba(255, 255, 255, 0.466);
 }
 
 .btn-primary:hover{
