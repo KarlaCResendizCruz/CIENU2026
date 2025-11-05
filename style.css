@@ -81,6 +81,18 @@
     }
 /***Envio y registro FIN***/
 
+    .section-title2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #4d4d4d;
+      margin-bottom: 1rem;
+    }
+        @media (max-width: 600px) {
+      .section-title2 {
+        font-size: 2rem;
+      }
+    }
+
 .SubT2{
   color: #f4b223;
   font-size: 25px;
@@ -192,6 +204,28 @@
 }
 
 .message-content {
+  flex: 1;
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #000000;
+}
+/****/
+
+/****/
+.message-box2 {
+  background-color: #ffffff;
+  border: 4px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.orange-bar2 {
+  width: 20px;
+  background-color: #ffae00;
+}
+
+.message-content2 {
   flex: 1;
   font-size: 1.1rem;
   text-align: justify;
