@@ -93,6 +93,31 @@
       }
     }
 
+
+    .section-title3 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 600px) {
+      .section-title3 {
+        font-size: 2rem;
+      }
+    }
+
+    .section-title4 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #cfcfcf;
+      margin-bottom: 1rem;
+    }
+        @media (max-width: 600px) {
+      .section-title4 {
+        font-size: 2rem;
+      }
+    }
+
 .SubT2{
   color: #f4b223;
   font-size: 25px;
@@ -120,7 +145,7 @@
 }
 
 .BGIcontador {
-  background: url('/files/imagenes/contador/Contador.png') no-repeat center center;
+  background: url('./files/imagenes/contador/Contador.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -139,7 +164,7 @@
 
 
 .BGIturismo {
-  background: url('/files/imagenes/home/Turismo.png') no-repeat center center;
+  background: url('./files/imagenes/home/Turismo.png') no-repeat center center;
   background-size: cover;
 }
     .Body1{
@@ -441,6 +466,15 @@ img {
 .card_title {
   color: #ffffff;
   font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_titleSub {
+  color: #ffffff;
+  font-size: .8rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
