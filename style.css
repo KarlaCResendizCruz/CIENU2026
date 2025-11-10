@@ -1,4 +1,4 @@
-.Navbar1 {
+.Navbar3 {
   position: sticky;
   top: 0;
   z-index: 1050;
@@ -136,12 +136,11 @@
 
 /**CONTADOR INICIO**/
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
   height: 100%;
   width: 100%;
-  z-index: 0;
 }
 
 .BGIcontador {
@@ -173,7 +172,7 @@
     }
 
     .hero-section {
-      background-image: url('/files/imagenes/home/Turismo.png'); /* Reemplaza con la ruta de tu imagen */
+      background-image: url('./files/imagenes/home/Turismo.png'); /* Reemplaza con la ruta de tu imagen */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -890,6 +889,8 @@ section {
 .ptbColoquio{
     padding-bottom: 30px;
 }
+
+
 /***Nav1***/
 .nav1 {
     background-color: #bc955b;
@@ -1106,10 +1107,63 @@ body {
 .ICONcolor:hover {
     border-radius: 30px;
     transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 15px 15px rgba(66, 66, 66, 0.25), 
-    -5px -5px 15px 15px rgba(73, 73, 73, 0.22);
+    box-shadow: 5px 5px 15px 15px rgba(163, 163, 163, 0.25), 
+    -5px -5px 15px 15px rgba(145, 145, 145, 0.22);
 }
 
+
+
+/***FooterCIENU Inicio***/
+.FooterTxt {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+@media (max-width: 600px) {
+    .ICONcolorFCIENU {
+        width: 20px !important;
+      
+    }
+}
+
+.mi-seccion {
+  justify-content: center;  /* centra horizontalmente */
+  align-items: center;      /* centra verticalmente */
+}
+
+.logoCIENU1{
+  width: 120PX;
+}
+
+@media (max-width: 600px) {
+    .LogoCIENU {
+        width: 120px !important;
+    }
+}
+
+
+@media (min-width: 600px) {
+  /* Aquí van los estilos que solo se aplican en pantallas mayores a 600px */
+  .ICONcolorFCIENU{
+    width: 20px;
+  }
+}
+
+
+.ICONcolorFCIENU:hover {
+    border-radius: 30px;
+    transform: scale(0.9, 0.9);
+}
+
+/***FooterCIENU Fin***/
+
+
+
+@media (max-width: 600px) {
+    .ImgOX {
+        width: 100px !important;
+    }
+}
 
 
 .ICONcolor2:hover {
