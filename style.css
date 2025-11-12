@@ -812,33 +812,9 @@ img {
   font-size: calc(0.5em + 1vw);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.SectionPadding {
+  padding: 8px 0;
+}
 
 
 /***Footer Inicio***/
@@ -856,10 +832,10 @@ img {
 .FooterImgAL {
     text-align: left;
 }
-
-section {
-    padding: 20px 0;
-}
+/* Section afecta a todas las secciones del HTML */
+/*section {
+    padding: 8px 0;
+}*/
 
 .FooterIcon {
     padding-right: 20px;
