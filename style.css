@@ -516,6 +516,7 @@ img {
 .modal-header {
   background-color: #d7d7d7;
   color: rgb(31, 30, 30);
+  text-align: center !important;
 }
 
 
