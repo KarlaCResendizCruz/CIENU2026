@@ -106,6 +106,16 @@
       }
     }
 
+    @media (max-width: 600px) {
+      .btnSmall {
+        width: 100px;
+        white-space: pre-line;
+      }
+    }
+    
+    
+
+
     .section-title4 {
       font-size: 1.8rem;
       font-weight: bold;
