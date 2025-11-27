@@ -1,3 +1,75 @@
+/***Site Map Inicio***/
+
+.SM {
+background: #f8f9fa;
+}
+.sitemap-container {
+max-width: 900px;
+margin: 40px auto;
+background: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.aMS {
+    background-image: linear-gradient(
+      to right,
+      #49176D,
+      #49176D,
+      #49176D 
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  /*line-height: 20px !important;*/
+  .aMS:before{
+    content: '';
+    background: #49176D;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .aMS:hover {
+   background-position: 0;
+   text-shadow: 0 0 3px #49176D;
+  }
+  
+  .aMS:hover::before{
+    width: 100%;
+  }
+
+  .TituloMS {
+    color: #49176D;
+    font-weight: 750;
+}
+
+
+.TextoMS {
+    color: #49176D;
+    font-weight: 400;
+}
+
+.TextoMS2 {
+    color: #555555;
+    font-weight: 400;
+}
+
+/***Site Map Fin***/
+
+
 .Navbar3 {
   position: sticky;
   top: 0;
@@ -292,6 +364,8 @@
     text-align: center;
     font-weight: 750;
 }
+
+
 
 .TituloDw {
     color: #F4B223;
