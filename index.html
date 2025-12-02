@@ -488,7 +488,7 @@
               <h3 class="TituloDw" style="padding-top: 50px; padding-bottom: 30px;">Archivos Descargables </h3>
                 
                 <div class="col-md-4" style="padding-bottom: 30px;">
-                  <a href="./files/docs/descargas/ConvocatoriaCIENU2026VF_181125.pdf">
+                  <a href="./files/docs/descargas/ConvocatoriaCIENU2026_271125.pdf">
                     <img src="files/imagenes/descargas/ConvocatoriaDW.png" class="img-fluid ICONcolor2"  alt="Convocatoria Descarga">
                   </a>
                 </div>
@@ -844,6 +844,46 @@
   </script>
 
   <script>
+  function updateCountdown() {
+    // 💡 AJUSTE REALIZADO AQUÍ: La fecha objetivo es ahora el 3 de junio de 2026
+    const eventDate = new Date("2026-06-03T00:00:00");
+    const now = new Date();
+    const diff = eventDate - now;
+
+    if (diff <= 0) {
+      // Usamos querySelector para encontrar el elemento que envuelve el contador.
+      // Asumimos que la clase ".countdown" está en el contenedor principal.
+      const countdownElement = document.querySelector(".countdown");
+      if (countdownElement) {
+         countdownElement.innerHTML = "<h2>¡El evento ha comenzado!</h2>";
+      }
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    // Actualiza los elementos HTML
+    // Se añade una pequeña verificación para asegurar que los IDs existen antes de intentar asignarles un valor.
+    if (document.getElementById("days")) {
+      document.getElementById("days").textContent = String(days).padStart(3, '0');
+      document.getElementById("hours").textContent = String(hours).padStart(2, '0');
+      document.getElementById("minutes").textContent = String(minutes).padStart(2, '0');
+      document.getElementById("seconds").textContent = String(seconds).padStart(2, '0');
+    } else {
+      console.error("Asegúrate de tener elementos con los IDs 'days', 'hours', 'minutes' y 'seconds' en tu HTML.");
+    }
+  }
+
+  // Se ejecuta cada segundo para actualizar el contador
+  setInterval(updateCountdown, 1000);
+  // Se ejecuta inmediatamente para evitar un retraso inicial
+  updateCountdown();
+
+</script>
+  <!--<script>
     function updateCountdown() {
     const eventDate = new Date("2026-06-03T00:00:00");
     const now = new Date();
@@ -868,7 +908,7 @@
   setInterval(updateCountdown, 1000);
   updateCountdown();
 
-  </script>
+  </script>-->
 
 
 
