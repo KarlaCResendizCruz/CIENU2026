@@ -1,3 +1,108 @@
+/***Organizador RIDMAE Inicio***/
+
+
+.carousel-logo {
+  width: 100%;
+  height: 120px;       /* 👈 AJUSTA ESTE VALOR */
+  object-fit: contain; /* mantiene el logo completo */
+}
+@media (max-width: 600px) {
+  .carousel-logo {
+    height: 90px;
+  }
+}
+
+/***Organizador RIDMAE Fin***/
+
+
+
+
+/***Organizador Inicio***/
+
+.UPPicon{
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+    .UPPicon {
+        width: 70px;
+    }
+}
+
+.icon-custom {
+  max-width: 220px;   /* ajusta según necesites */
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+    .PhoneNAVorganizador {
+        width: 150px;
+    }
+}
+
+@media (min-width: 600px) {
+    .ImgAvisos {
+        width: 200px;
+    }
+}
+
+.ImgAlignHoriz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-item {
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.link-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-item:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.carousel-control-prev {
+  right: 40px;
+  /* Ajusta este valor según necesites */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  /* Ajusta el tamaño del botón */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(108%);
+}
+
+.ImgAlignHoriz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/***Organizador Fin***/
+
+
 /***Site Map Inicio***/
 
 .SM {
@@ -90,7 +195,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
     .section-title {
-      font-size: 2.5rem;
+      font-size: 30px;
       font-weight: bold;
       color: #49176D;
       margin-bottom: 1rem;
@@ -167,14 +272,14 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
 
     .section-title3 {
-      font-size: 1.8rem;
+      font-size: 30px;
       font-weight: bold;
       color: #ffffff;
       margin-bottom: 1rem;
     }
     @media (max-width: 600px) {
       .section-title3 {
-        font-size: 2rem;
+        font-size: 20px;
       }
     }
 
@@ -189,14 +294,14 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
 
     .section-title4 {
-      font-size: 1.8rem;
+      font-size: 30px;
       font-weight: bold;
       color: #cfcfcf;
       margin-bottom: 1rem;
     }
         @media (max-width: 600px) {
       .section-title4 {
-        font-size: 2rem;
+        font-size: 20px;
       }
     }
 
@@ -347,7 +452,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
 .TituloUbicacion{
     color: #49176D;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 750;
 }
@@ -355,6 +460,13 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 .TituloUbicacion3 {
     color: #49176D;
     font-size: 25px;
+    text-align: center;
+    font-weight: 750;
+}
+
+.TituloUbicacion4 {
+    color: #49176D;
+    font-size: 15px;
     text-align: center;
     font-weight: 750;
 }
@@ -369,7 +481,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
 .TituloDw {
     color: #F4B223;
-    font-size: 33px;
+    font-size: 30px;
     text-align: center;
     font-weight: 750;
 }
@@ -478,7 +590,6 @@ img {
   color: #ffffff;
   padding: 0.8rem;
   font-size: 14px;
-  text-transform: uppercase;
   border-radius: 4px;
   font-weight: 400;
   display: block;
@@ -999,6 +1110,36 @@ img {
     padding-bottom: 20PX;
 }
 /***Nav1***/
+
+/**Aviso de Privacidad Inicio**/
+.aLine {
+    background-image: linear-gradient(
+      to right,
+      #49176d,
+      #49176d,
+      #49176d 
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .aLine:hover {
+   background-position: 0;
+   text-shadow: 0 0 3px #49176d;
+  }
+  
+  .aLine:hover::before{
+    width: 100%;
+  }
+/**Aviso de Privacidad Fin**/
+
 
 
 
