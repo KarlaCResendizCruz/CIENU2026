@@ -20,14 +20,31 @@
 /***Organizador Inicio***/
 
 .UPPicon{
-  width: 100px;
+  width: 350px;
 }
 
 @media (max-width: 600px) {
     .UPPicon {
-        width: 70px;
+        width: 150px;
     }
 }
+
+.UPPicon2{
+  width: 90px;
+}
+
+@media (max-width: 600px) {
+    .UPPicon2 {
+        width: 60px;
+    }
+}
+
+.ShadowBWP{
+  box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.75);
+}
+
 
 .icon-custom {
   max-width: 220px;   /* ajusta según necesites */
@@ -447,7 +464,8 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 .TituloFechas {
     color: #bb3e3e;
     text-align: center;
-    font-weight: 750;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .TituloUbicacion{
@@ -473,7 +491,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
 .TituloCP {
     color: #49176D;
-    text-align: center;
+    text-align: start;
     font-weight: 750;
 }
 
@@ -490,25 +508,55 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 .TituloComprimiso {
     color: #49176D;
     text-align: center;
-    font-weight: 750;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.TituloRecintosSub {
+    color: #49176D;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .TituloSEDE{
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
     color:#49176D;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     text-align: center;
-    font-weight: 750;
+    margin-bottom: 25px;
+}
+
+.TituloRecintos{
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color:#49176D;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .TituloSEDE2{
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
 }
 
 .TituloSEDE3{
   color: #ffffff;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.TituloSEDE4{
+    font-size: 30px;
+    font-weight: 700;
+    color:#49176D;
 }
 
 @media (max-width: 600px) {
@@ -535,7 +583,133 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 }
 
+@media (max-width: 1000px) {
+    .CCEpadT {
+        margin-top: 200px;
+      
+    }
+}
 
+/* RECINTOS */
+
+/* TÍTULO PRINCIPAL */
+.TituloRecintos {
+    font-weight: 800;
+    color: #5B2D91;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+/* SUBTÍTULOS */
+.TituloRecintosSub {
+    min-height: 80px;   /* ajusta según tu diseño */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* TEXTO */
+.texto-recinto {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* IMÁGENES */
+.img-recinto {
+    margin-top: 25px;
+    border-radius: 6px;
+}
+
+/* AJUSTE SOLO EN PANTALLAS PEQUEÑAS */
+@media (max-width: 991px) {
+    .CCEpadT {
+        margin-top: 40px;
+    }
+
+    .TituloRecintosSub {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+/* SECCIÓN GENERAL */
+.ubicacion-section {
+    background-color: #F4B425; /* amarillo del diseño */
+}
+
+/* TÍTULO */
+.titulo-ubicacion {
+    font-weight: 800;
+    color: #4B1F6F;
+}
+
+/* TEXTO */
+.texto-ubicacion {
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* TÍTULOS DE RECINTO */
+.titulo-recinto {
+    color: #4B1F6F;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* DIRECCIÓN */
+.direccion-recinto {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* CONTENEDOR MAPA */
+.mapa-contenedor {
+    width: 100%;
+    height: 220px;
+    background-color: #E0E0E0; /* gris de placeholder */
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* MAPA RESPONSIVO */
+.mapa-contenedor iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* AJUSTES MÓVILES */
+@media (max-width: 991px) {
+    .mapa-contenedor {
+        margin-top: 20px;
+        height: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.MTS {
+  padding-top: 20px;
+}
+
+.MTS2 {
+  padding-top: 80px;
+}
 
 .ImgAlignHoriz {
     display: flex;
@@ -1007,9 +1181,7 @@ img {
   font-size: calc(0.5em + 1vw);
 }
 
-.SectionPadding {
-  padding: 8px 0;
-}
+
 
 
 /***Footer Inicio***/
@@ -1140,7 +1312,129 @@ img {
   }
 /**Aviso de Privacidad Fin**/
 
+/**HOSPEDAJE INICIO**/
 
+
+/* SECCIÓN */
+.hospedaje-section {
+    background-color: #ffffff;
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo-hospedaje {
+    font-weight: 800;
+    color: #4B1F6F;
+    letter-spacing: 3px;
+}
+
+/* SUBTÍTULOS */
+.subtitulo-hotel {
+    color: #4B1F6F;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* LOGOS */
+.logo-hotel {
+    max-width: 260px;
+    height: auto;
+
+}
+
+/* IMÁGENES */
+.img-hotel {
+    border-radius: 6px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* NOMBRE HOTEL */
+.nombre-hotel {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* INFO */
+.info-hotel {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+    .logo-hotel {
+        margin-bottom: 20px;
+    }
+
+    .subtitulo-hotel {
+        text-align: center;
+    }
+}
+
+
+/* BOTÓN RESERVACIÓN */
+.btn-reservacion1 {
+    background-color: #f4b223; /* morado institucional */
+    color: #000000;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+/* HOVER */
+.btn-reservacion1:hover {
+    background-color: #fdc64e;
+    color: #333333;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 991px) {
+    .btn-reservacion1 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.btn-reservacion2 {
+    background-color: #e22b2b; /* morado institucional */
+    color: #000000;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+/* HOVER */
+.btn-reservacion2:hover {
+    background-color: #fa6c6c;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 991px) {
+    .btn-reservacion2 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/**HOSPEDAJE FIN**/
 
 
 
@@ -1151,6 +1445,9 @@ img {
 .navbar-toggler-icon {
   background-image: url("files/menuC.png");
 }
+
+
+
 
 .navbar-toggler-icon:hover {
     border-color: #ffffff !important;
@@ -1270,6 +1567,7 @@ body {
     border-color: #49176d;
     color: #49176d;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .BtnEnvio:hover {
