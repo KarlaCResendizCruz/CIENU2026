@@ -14,7 +14,119 @@
 
 /***Organizador RIDMAE Fin***/
 
+/***Inscripciones INICIO***/
+/* TÍTULOS */
+.titulo-principal {
+    color: #4b1f6f;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
 
+.subtitulo {
+    color: #4b1f6f;
+    font-weight: 700;
+}
+
+/* CARDS */
+.costo-card {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.costo-card h5 {
+    font-weight: 600;
+}
+
+.precio {
+    font-size: 2.5rem;
+    color: #4b1f6f;
+    font-weight: 700;
+}
+
+.anticipada {
+    color: #f0a500;
+    font-weight: 600;
+}
+
+.tardia {
+    color: #666;
+}
+
+/* INFO BOX */
+.info-box {
+    background-color: #ffffff;
+    border-left: 6px solid #f0a500;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* SECCIONES */
+.seccion-titulo {
+    color: #4b1f6f;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* BOTONES */
+.btnParticipantes {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-amarilloParticipantes {
+    background-color: #f0a500;
+    color: #4b1f6f;
+}
+
+.btn-amarilloParticipantes:hover {
+    background-color: #d89200;
+    color: white;
+}
+
+.btnAsistentes {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-moradoAsistentes {
+    background-color: #4b1f6f;
+    color: white;
+}
+
+.btn-moradoAsistentes:hover {
+    background-color: #3a1756;
+    color: white;
+}
+
+.btn01 {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-gestor01 {
+    background-color: #c61c2c;
+    color: white;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.btn-gestor01:hover {
+    background-color: #a81523;
+    color: white;
+}
+
+/***Inscripciones FIN***/
 
 
 /***Organizador Inicio***/
@@ -1684,9 +1796,7 @@ body {
 
 
 .ICONcolor2:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 20px 15px rgba(255, 255, 255, 0.527), 
-    -5px -5px 20px 15px rgba(255, 255, 255, 0.466);
+  transform: scale(1.05);
 }
 
 .btn-primary:hover{
@@ -1774,6 +1884,18 @@ body {
     box-shadow: 5px 5px 8px 5px rgb(20, 20, 20, 0.3);
 }
 
+.ShadowImageBTN {
+    box-shadow: 3px 4px 3px 1px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 3px 4px 3px 1px rgba(0,0,0,0.37);
+    -moz-box-shadow: 3px 4px 3px 1px rgba(0,0,0,0.37);
+}
+
+.ShadowImageBTN:hover {
+    border-color: #f4b223 !important;
+    background-color: #49176d !important; 
+    color: #f4b223;
+    box-shadow: 0 5px 13px -2px #49176d;
+}
 /****ECYAD****/
 
 
