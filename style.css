@@ -150,6 +150,18 @@
 
 /***Organizador Inicio***/
 
+
+
+.TavelIcon {
+  width: 180px;
+}
+
+@media (max-width: 600px) {
+    .TavelIcon {
+        width: 150px;
+    }
+}
+
 .UPPicon{
   width: 350px;
 }
